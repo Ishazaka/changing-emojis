@@ -19,5 +19,11 @@ h1{
   margin-bottom: 56px;
 }
 
+.emoji{
+ font-size: 160px;
+ margin-left: 60px;
+ cursor: pointer;
+ display: none;
 
+}
 
