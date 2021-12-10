@@ -14,3 +14,11 @@ const tongued = document.querySelector('.tongue');
 const moneid = document.querySelector('.money');
 const stranged = document.querySelector('.strange');
 const circled = document.querySelector('.circle');
+
+
+closedFace.addEventListener('click', function(){
+if(openFace.classList.contains('open')) {
+  openFace.classList.add('active');
+  closedFace.classList.remove('active');
+}
+})
