@@ -9,4 +9,7 @@ const starEyes = document.querySelector('.stareyes');
 const kissed = document.querySelector('.kiss');
 const laughed = document.querySelector('.laugh');
 const tasted = document.querySelector('.tasty');
+const tongued = document.querySelector('.tongue');
+ const zipped = document.querySelector('.zip');
+const moneid = document.querySelector('.money');
 
