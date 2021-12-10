@@ -12,4 +12,5 @@ const tasted = document.querySelector('.tasty');
 const tongued = document.querySelector('.tongue');
  const zipped = document.querySelector('.zip');
 const moneid = document.querySelector('.money');
-
+const stranged = document.querySelector('.strange');
+const circled = document.querySelector('.circle');
