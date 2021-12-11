@@ -31,3 +31,23 @@ if(mouthFace.classList.contains('mouth')) {
 }
 })
 
+mouthFace.addEventListener('click', function(){
+ if(heartFace.classList.contains('heartface')) {
+  heartFace.classList.add('active'); 
+  mouthFace.classList.remove('active');
+ }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
