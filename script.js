@@ -22,3 +22,12 @@ if(openFace.classList.contains('open')) {
   closedFace.classList.remove('active');
 }
 })
+
+openFace.addEventListener('click', function(){
+if(mouthFace.classList.contains('mouth')) {
+  mouthFace.classList.add('active');
+   openFace.classList.remove('active');
+   
+}
+})
+
