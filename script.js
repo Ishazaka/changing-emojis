@@ -39,7 +39,12 @@ mouthFace.addEventListener('click', function(){
 })
 
 
-
+heartFace.addEventListener('click', function(){
+ if(heartEyes.classList.contains('hearteyes')) {
+  heartEyes.classList.add('active'); 
+  heartFace.classList.remove('active');
+ }
+})
 
 
 
