@@ -48,6 +48,13 @@ heartFace.addEventListener('click', function(){
 
 
 
+heartEyes.addEventListener('click', function(){
+if(starEyes.classList.contains('stareyes')) {
+  starEyes.classList.add('active');
+  heartEyes.classList.remove('active');
+}
+
+})
 
 
 
