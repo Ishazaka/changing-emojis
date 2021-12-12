@@ -73,6 +73,14 @@ if(laughed.classList.contains('laugh')) {
 })
 
 
+laughed.addEventListener('click', function(){
+  if(tasted.classList.contains('tasty')){
+    tasted.classList.add('active')
+   laughed.classList.remove('active');
+}  
+})
+
+
 
 
 
