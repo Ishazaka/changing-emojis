@@ -65,6 +65,13 @@ if(kissed.classList.contains('kiss')) {
 })
 
 
+kissed.addEventListener('click', function(){
+if(laughed.classList.contains('laugh')) {
+  laughed.classList.add('active');
+  kissed.classList.remove('active');
+}
+})
+
 
 
 
