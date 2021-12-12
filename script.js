@@ -57,6 +57,13 @@ if(starEyes.classList.contains('stareyes')) {
 })
 
 
+starEyes.addEventListener('click', function(){
+if(kissed.classList.contains('kiss')) {
+  kissed.classList.add('active');
+  starEyes.classList.remove('active');
+}
+})
+
 
 
 
