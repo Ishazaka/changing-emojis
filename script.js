@@ -81,6 +81,14 @@ laughed.addEventListener('click', function(){
 })
 
 
+tasted.addEventListener('click', function(){
+  if(tongued.classList.contains('tongue')){
+    tongued.classList.add('active')
+tasted.classList.remove('active')
+
+}  
+})
+
 
 
 
