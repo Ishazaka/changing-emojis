@@ -114,3 +114,18 @@ moneid.addEventListener('click',function(){
   }
 })
 
+
+stranged.addEventListener('click',function(){
+  if(circled.classList.contains('circle')){
+    circled.classList.add('active')
+     stranged.classList.remove('active')
+  }
+})
+
+
+
+
+
+
+
+
