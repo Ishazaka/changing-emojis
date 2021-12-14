@@ -90,6 +90,13 @@ tasted.classList.remove('active')
 })
 
 
+tongued.addEventListener('click', function(){
+  if(zipped.classList.contains('zip')){
+    zipped.classList.add('active')
+tongued.classList.remove('active')
+
+}  
+})
 
 
 
