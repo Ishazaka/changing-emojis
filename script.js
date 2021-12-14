@@ -99,4 +99,11 @@ tongued.classList.remove('active')
 })
 
 
+zipped.addEventListener('click',function(){
+  if(moneid.classList.contains('money')){
+    moneid.classList.add('active')
+     zipped.classList.remove('active')
+  }
+})
+
 
