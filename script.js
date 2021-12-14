@@ -107,3 +107,10 @@ zipped.addEventListener('click',function(){
 })
 
 
+moneid.addEventListener('click',function(){
+  if(stranged.classList.contains('strange')){
+    stranged.classList.add('active')
+     moneid.classList.remove('active')
+  }
+})
+
