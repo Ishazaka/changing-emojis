@@ -123,6 +123,13 @@ stranged.addEventListener('click',function(){
 })
 
 
+circled.addEventListener('click',function(){
+  if(closedFace.classList.contains('closed')){
+    closedFace.classList.add('active')
+     circled.classList.remove('active')
+  }
+})
+    
 
 
 
